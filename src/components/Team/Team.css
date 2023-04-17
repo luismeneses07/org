@@ -1,0 +1,27 @@
+.team{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 32px;  
+    position: relative;
+}
+.team_color{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.team h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid #57c278;
+    display: inline-block;
+}
+
+.collaborators{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

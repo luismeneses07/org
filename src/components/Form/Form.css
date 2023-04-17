@@ -1,0 +1,22 @@
+.forms{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form{
+    flex:1;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    padding: 8px 100px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+}
+
